@@ -1,17 +1,15 @@
 package com.enoca.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.enoca.responseDTO.CarResponseDTO;
 import com.enoca.service.CarService;
 
-@RestController// bu classın controller olduğunu söylüyorum
+@RestController// bu classın controller olduğunu söylüyorum 
 public class CarController {
 	
 	@Autowired
